@@ -1,13 +1,690 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Publications | Dr. Mohammad Abu Kausar</title><meta name="description" content="Academic profile of Dr. Mohammad Abu Kausar, Associate Professor at the University of Nizwa.">
-<link rel="stylesheet" href="assets/css/style.css"></head><body><header><div class="container"><nav><a class="brand" href="index.html">Dr. Mohammad Abu Kausar</a><div class="links">
-<a href="index.html">Home</a><a href="about.html">About</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="projects.html">Projects</a><a href="teaching.html">Teaching</a><a href="awards.html">Awards</a><a href="contact.html">Contact</a>
-</div></nav></div></header><div class="page-head"><div class="container"><h1>Selected Publications</h1><p>Recent and representative scholarly works. The full publication record can be accessed through academic profiles.</p></div></div><main><section><div class="container">
-<div class="item"><b>Machine Learning-Based Forecasting and Optimization of Water and Energy Consumption in GCC Countries</b> — The International Arab Journal of Information Technology, 2026.</div>
-<div class="item"><b>Federated Graph Attention Network for IoT Edge Anomaly Detection</b> — International Journal of Wireless and Microwave Technologies, 2026.</div>
-<div class="item"><b>AI-driven Digital Twin Framework for Sustainable Smart City Traffic Management</b> — International Journal of Advanced Technology and Engineering Exploration, 2026.</div>
-<div class="item"><b>Edge Federated Learning for Privacy Aware IoT Sensor Networks</b> — International Journal of Computer Theory and Engineering, 2026.</div>
-<div class="item"><b>A Machine Learning Approach to Optimize Water Usage in Precision Agriculture for Environmental Sustainability</b> — Next Research, 2026.</div>
-<div class="item"><b>The Explainable AI for Mango Leaf Disease Detection</b> — Indian Journal of Horticulture, 2025.</div>
-<div class="item"><b>Digital Twin-Enabled Anomaly Detection for Industrial IoT using Explainable AI</b> — International Journal of Computer Applications, 2025.</div>
-<p class="muted">Note: This page intentionally presents a concise selection. Additional publications can be added from the full CV.</p></div></section></main><footer><div class="container"><strong>Dr. Mohammad Abu Kausar</strong><br>Associate Professor, Department of Information Systems · University of Nizwa, Sultanate of Oman<br><span class="muted">Academic website hosted with GitHub Pages.</span></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>
+        Publications | Dr. Mohammad Abu Kausar
+    </title>
+
+    <meta name="description"
+          content="Research publications of Dr. Mohammad Abu Kausar">
+
+    <link rel="stylesheet"
+          href="assets/css/style.css">
+
+    <style>
+
+        /* Publications Page */
+
+        .publication-controls {
+            margin-bottom: 30px;
+        }
+
+        .publication-btn {
+            display: inline-block;
+            padding: 11px 20px;
+            margin: 5px 8px 5px 0;
+            background: #1759a8;
+            color: white;
+            border-radius: 8px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .publication-btn:hover {
+            background: #0f3f78;
+        }
+
+        .orcid-btn {
+            background: #a6ce39;
+        }
+
+        .orcid-btn:hover {
+            background: #87ad22;
+        }
+
+        .publication-card {
+            background: white;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            border-left: 4px solid #1759a8;
+            box-shadow: 0 5px 20px rgba(21, 60, 102, 0.08);
+        }
+
+        .publication-title {
+            font-size: 1.08rem;
+            font-weight: 750;
+            color: #10233f;
+            margin-bottom: 8px;
+        }
+
+        .publication-year {
+            display: inline-block;
+            background: #eaf4ff;
+            color: #1759a8;
+            padding: 3px 9px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .publication-type {
+            color: #637083;
+            font-size: 0.95rem;
+        }
+
+        .publication-link {
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+
+        #loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.1rem;
+            color: #637083;
+        }
+
+        #error-message {
+            display: none;
+            background: #fff4e5;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<header>
+
+    <div class="container">
+
+        <nav>
+
+            <a class="brand"
+               href="index.html">
+
+                Dr. Mohammad Abu Kausar
+
+            </a>
+
+
+            <div class="links">
+
+                <a href="index.html">Home</a>
+
+                <a href="about.html">About</a>
+
+                <a href="research.html">Research</a>
+
+                <a href="publications.html">Publications</a>
+
+                <a href="projects.html">Projects</a>
+
+                <a href="teaching.html">Teaching</a>
+
+                <a href="awards.html">Awards</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- PAGE HEADER -->
+
+<div class="page-head">
+
+    <div class="container">
+
+        <h1>
+            Publications
+        </h1>
+
+        <p>
+            Research publications automatically retrieved
+            from my ORCID academic profile.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- PUBLICATIONS -->
+
+<main>
+
+<section>
+
+    <div class="container">
+
+
+        <!-- PROFILE BUTTONS -->
+
+        <div class="publication-controls">
+
+            <a
+                class="publication-btn orcid-btn"
+                href="https://orcid.org/0000-0002-7997-8292"
+                target="_blank">
+
+                View ORCID Profile
+
+            </a>
+
+
+            <a
+                class="publication-btn"
+                href="https://www.scopus.com/authid/detail.uri?authorId=55839998100"
+                target="_blank">
+
+                View Scopus Profile
+
+            </a>
+
+        </div>
+
+
+        <!-- LOADING -->
+
+        <div id="loading">
+
+            Loading publications from ORCID...
+
+        </div>
+
+
+        <!-- ERROR MESSAGE -->
+
+        <div id="error-message">
+
+            Publications could not be loaded automatically.
+
+            Please visit my ORCID profile to view
+            my complete publication record.
+
+        </div>
+
+
+        <!-- PUBLICATION LIST -->
+
+        <div id="publication-list">
+
+        </div>
+
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container">
+
+        <strong>
+            Dr. Mohammad Abu Kausar
+        </strong>
+
+        <br>
+
+        Associate Professor,
+        Department of Information Systems
+        · University of Nizwa,
+        Sultanate of Oman
+
+        <br>
+
+        <span class="muted">
+
+            Academic website hosted with GitHub Pages.
+
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- ORCID PUBLICATION SCRIPT -->
+
+<script>
+
+const ORCID_ID = "0000-0002-7997-8292";
+
+const ORCID_API =
+    "https://pub.orcid.org/v3.0/" +
+    ORCID_ID +
+    "/works";
+
+
+async function loadPublications() {
+
+    const publicationList =
+        document.getElementById("publication-list");
+
+    const loading =
+        document.getElementById("loading");
+
+    const errorMessage =
+        document.getElementById("error-message");
+
+
+    try {
+
+        const response = await fetch(
+
+            ORCID_API,
+
+            {
+
+                headers: {
+
+                    "Accept":
+                    "application/json"
+
+                }
+
+            }
+
+        );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "ORCID API request failed"
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        loading.style.display =
+            "none";
+
+
+        let publications = [];
+
+
+        /*
+        Read publication groups
+        from ORCID
+        */
+
+        data.group.forEach(
+
+            function(group) {
+
+
+                const summary =
+
+                    group[
+                        "work-summary"
+                    ][0];
+
+
+                const title =
+
+                    summary.title
+                        ?.title
+                        ?.value
+
+                    || "Untitled Publication";
+
+
+                const year =
+
+                    summary[
+                        "publication-date"
+                    ]
+                    ?.year
+                    ?.value
+
+                    || "Year not available";
+
+
+                const type =
+
+                    summary.type
+
+                    || "Publication";
+
+
+                /*
+                Try to obtain DOI
+                */
+
+                let doi = null;
+
+
+                if (
+
+                    summary[
+                        "external-ids"
+                    ]
+
+                ) {
+
+
+                    const externalIDs =
+
+                        summary[
+                            "external-ids"
+                        ][
+                            "external-id"
+                        ]
+
+                        || [];
+
+
+                    const doiEntry =
+
+                        externalIDs.find(
+
+                            id =>
+
+                            id[
+                                "external-id-type"
+                            ]
+                            ?.toLowerCase()
+
+                            === "doi"
+
+                        );
+
+
+                    if (doiEntry) {
+
+                        doi =
+
+                            doiEntry[
+                                "external-id-value"
+                            ];
+
+                    }
+
+                }
+
+
+                publications.push({
+
+                    title:
+                        title,
+
+                    year:
+                        year,
+
+                    type:
+                        type,
+
+                    doi:
+                        doi
+
+                });
+
+
+            }
+
+        );
+
+
+        /*
+        Sort newest publications first
+        */
+
+        publications.sort(
+
+            function(a, b) {
+
+                return (
+
+                    parseInt(b.year) || 0
+
+                ) -
+
+                (
+
+                    parseInt(a.year) || 0
+
+                );
+
+            }
+
+        );
+
+
+        /*
+        Display publications
+        */
+
+        publications.forEach(
+
+            function(publication) {
+
+
+                const card =
+
+                    document.createElement(
+                        "div"
+                    );
+
+
+                card.className =
+
+                    "publication-card";
+
+
+                let publicationHTML = `
+
+                    <div
+                        class="publication-year">
+
+                        ${publication.year}
+
+                    </div>
+
+
+                    <div
+                        class="publication-title">
+
+                        ${publication.title}
+
+                    </div>
+
+
+                    <div
+                        class="publication-type">
+
+                        ${formatType(
+                            publication.type
+                        )}
+
+                    </div>
+
+                `;
+
+
+                /*
+                Add DOI button
+                when available
+                */
+
+                if (publication.doi) {
+
+                    publicationHTML += `
+
+                        <a
+
+                            class="publication-link"
+
+                            href="https://doi.org/${publication.doi}"
+
+                            target="_blank"
+
+                            rel="noopener noreferrer">
+
+                            View Publication →
+
+                        </a>
+
+                    `;
+
+                }
+
+
+                card.innerHTML =
+
+                    publicationHTML;
+
+
+                publicationList.appendChild(
+
+                    card
+
+                );
+
+
+            }
+
+        );
+
+
+        /*
+        No publications found
+        */
+
+        if (
+
+            publications.length === 0
+
+        ) {
+
+            publicationList.innerHTML = `
+
+                <div class="card">
+
+                    No public publications
+                    were found in the
+                    ORCID record.
+
+                </div>
+
+            `;
+
+        }
+
+
+    }
+
+
+    catch(error) {
+
+
+        console.error(
+
+            "Publication loading error:",
+
+            error
+
+        );
+
+
+        loading.style.display =
+            "none";
+
+
+        errorMessage.style.display =
+            "block";
+
+
+    }
+
+}
+
+
+/*
+Convert ORCID publication type
+into readable text
+*/
+
+function formatType(type) {
+
+    return type
+
+        .replaceAll(
+            "_",
+            " "
+        )
+
+        .replaceAll(
+            "-",
+            " "
+        )
+
+        .toLowerCase()
+
+        .replace(
+
+            /\b\w/g,
+
+            function(letter) {
+
+                return letter
+                    .toUpperCase();
+
+            }
+
+        );
+
+}
+
+
+/*
+Load publications when
+the webpage opens
+*/
+
+document.addEventListener(
+
+    "DOMContentLoaded",
+
+    loadPublications
+
+);
+
+</script>
+
+
+</body>
+
+</html>
